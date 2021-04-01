@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(201, 252, 201);
+}
+
+@font-face {
+    font-family: "main";
+    src: url(https://gslevel.github.io/fonts/FFFFORWA.TTF);
+}
+
+* {
+   font-family: "main"; 
+}
+
+#info {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes bgAnim {
+    0% {
+        background-color: rgb(120, 151, 120);
+    }
+
+    30% {
+        background-color: rgb(141, 151, 0);
+    }
+
+    50% {
+        background-color: rgb(111, 175, 161);
+    }
+
+    80% {
+        background-color: rgb(102, 97, 163);
+    }
+
+    90% {
+        background-color: rgb(156, 100, 144);
+    }
+
+    100% {
+        background-color: rgb(120,151,120)
+    }
+}
+
+#warning {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 0%;
+    font-size: 30px
+}
+
+#main {
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+    color: yellowgreen;
+}
+
+#confirm {
+    text-align: center;
+}
